@@ -4,7 +4,12 @@
 }
 
 img {
-	max-width: 100%;
+	max-width: 35%;
+}
+
+body {
+	font-size: 20px; 
+	font-family: 'Montserrat', sans-serif;
 }
 
 /* Header Style */
@@ -28,27 +33,28 @@ img {
 	text-decoration: none;
 	color: #fff;
 }
-.header-links-wrapper ul li a {
-	text-decoration: none;
-	color: #fff
-}
 .header-wrapper ul {
-	list-style-type: none;
+	list-style: none;
 }
-.header-wapper .header-links-wrapper ul li:hover {
+.header-wrapper .header-links-wrapper ul  li {
+	display: inline-block;
+  padding: 14px 0 8px;
+  height: 25px;
+  opacity: 0.8;
+}
+.header-wrapper .header-links-wrapper ul  li:hover {
 	opacity: 1;
-}
-
-.logo-link .searc-link .cart-link {
-	width: 18px
+}	
+.logo-link, .search-link, .cart-link {
+	width: 18px;	
 	display: block;
 }
-.header-wapper .header-links-wrapper ul li.logo-link {
-  padding: 12px 0 10px; 
+.header-wrapper .header-links-wrapper ul  li.logo-link {
+	padding: 12px 0 10px;
 }
-.header-wapper .header-links-wrapper ul li.search-link {
-  padding: 14px 0 8px;
+.header-wrapper .header-links-wrapper ul  li.search-link {
+	padding: 14px 0 8px;
 }
-.header-wapper .header-links-wrapper ul li.cart-link {
-  padding: 12px 0 10px;
+.header-wrapper .header-links-wrapper ul  li.cart-link {
+	padding: 12px 0 10px;
 }
