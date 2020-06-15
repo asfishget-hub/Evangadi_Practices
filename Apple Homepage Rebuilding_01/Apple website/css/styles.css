@@ -17,8 +17,8 @@ body {
 .header-wrapper {
 	background: black; 
 	color: #fff;
-	font-weight: 200;
-	font-size: 0.75em;	
+	font-weight: 300;
+	font-size: 1em;	
 }
 .header-wrapper ul {
 	display: flex;
@@ -70,7 +70,7 @@ body {
 .upper-text-container {
   border-bottom: 1px solid #d2d2d7;
   color: #86868b;
-  padding: 17px 0 20px;
+  padding: 18px 0 20px;
 }
 .upper-text-container a {
 	text-decoration: none;
@@ -143,6 +143,8 @@ body {
 }
 
 /* Main Highlight */
+/* main highlight */
+
 .main-highlight-wrapper {
 	background: #fafafa;
 	text-align: center;
